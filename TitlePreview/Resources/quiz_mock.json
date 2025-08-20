@@ -1,0 +1,181 @@
+{
+   "version":1,
+   "title":"Personal styling quiz",
+   "questions":[
+      {
+         "id":"q_focus",
+         "type":"checkbox",
+         "navTitle":"Lifestyle & Interests",
+         "title":"What’d you like our stylists to focus on?",
+         "subtitle":"We offer services via live-chat mode.",
+         "min":1,
+         "max":null,
+         "options":[
+            {
+               "type":"text",
+               "id":"wardrobe",
+               "title":"Reinvent wardrobe",
+               "subtitle":"to discover fresh outfit ideas"
+            },
+            {
+               "type":"text",
+               "id":"palette",
+               "title":"Define color palette",
+               "subtitle":"to enhance my natural features"
+            },
+            {
+               "type":"text",
+               "id":"capsule",
+               "title":"Create a seasonal capsule",
+               "subtitle":"to curate effortless and elegant looks"
+            }
+         ]
+      },
+      {
+         "id":"q_style",
+         "type":"grid",
+         "navTitle":"Style preferences",
+         "title":"Which style best represents you?",
+         "min":1,
+         "max":null,
+         "options":[
+            {
+               "type":"image",
+               "id":"casual",
+               "title":"CASUAL",
+               "image":"style/casual"
+            },
+            {
+               "type":"image",
+               "id":"classy",
+               "title":"CLASSY",
+               "image":"style/classy"
+            },
+            {
+               "type":"image",
+               "id":"boho",
+               "title":"BOHO",
+               "image":"style/boho"
+            },
+            {
+               "type":"image",
+               "id":"ladylike",
+               "title":"LADYLIKE",
+               "image":"style/boho"
+            },
+            {
+               "type":"image",
+               "id":"urban",
+               "title":"URBAN",
+               "image":"style/urban"
+            },
+            {
+               "type":"image",
+               "id":"sporty",
+               "title":"SPORTY",
+               "image":"style/sporty"
+            }
+         ]
+      },
+      {
+         "id":"q_colors",
+         "type":"color",
+         "navTitle":"Style preferences",
+         "title":"Choose favourite colors",
+         "min":1,
+         "max":null,
+         "options":[
+            {
+               "type":"color",
+               "id":"green",
+               "title":"Green",
+               "hex":"#29AD3E"
+            },
+            {
+               "type":"color",
+               "id":"indigo",
+               "title":"Indigo",
+               "hex":"#2237A8"
+            },
+            {
+               "type":"color",
+               "id":"emerald",
+               "title":"Emerald",
+               "hex":"#098052"
+            },
+            {
+               "type":"color",
+               "id":"blue",
+               "title":"Blue",
+               "hex":"#5EA8FF"
+            },
+            {
+               "type":"color",
+               "id":"lightblue",
+               "title":"Light Blue",
+               "hex":"#69D1ED"
+            },
+            {
+               "type":"color",
+               "id":"brown",
+               "title":"Brown",
+               "hex":"#7F4B03"
+            },
+            {
+               "type":"color",
+               "id":"mint",
+               "title":"Mint",
+               "hex":"#87DBC8"
+            },
+            {
+               "type":"color",
+               "id":"olive",
+               "title":"Olive",
+               "hex":"#A8AD49"
+            },
+            {
+               "type":"color",
+               "id":"turquoise",
+               "title":"Turquoise",
+               "hex":"#ABE2FF"
+            },
+            {
+               "type":"color",
+               "id":"beige",
+               "title":"Beige",
+               "hex":"#CA9675"
+            },
+            {
+               "type":"color",
+               "id":"orange",
+               "title":"Orange",
+               "hex":"#CD6A09"
+            },
+            {
+               "type":"color",
+               "id":"magenta",
+               "title":"Magenta",
+               "hex":"#CF236E"
+            },
+            {
+               "type":"color",
+               "id":"red",
+               "title":"Red",
+               "hex":"#D31E1E"
+            },
+            {
+               "type":"color",
+               "id":"yellow",
+               "title":"Yellow",
+               "hex":"#EDDD47"
+            },
+            {
+               "type":"color",
+               "id":"pink",
+               "title":"Pink",
+               "hex":"#FF86B8"
+            }
+         ]
+      }
+   ]
+}
